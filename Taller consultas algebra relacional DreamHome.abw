@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="43" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Wed Mar 14 08:10:39 2018
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">Richy</m>
+<m key="dc.date">Wed Mar 14 08:10:39 2018
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="1" edit-time="3806" last-saved="1521033040" uid="3b4343c0-2780-11e8-881f-bb9d930e4c45">
+<version id="1" started="1521033040" uid="17e9df98-2789-11e8-881f-bb9d930e4c45" auto="0" top-xid="43"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="8" props="page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Normal" xid="9" props="text-align:center"><c props="font-weight:bold; font-size:16pt">UNIVERSIDAD TECNOLOGICA DE PEREIRA</c></p>
+<p style="Normal" xid="1" props="text-align:center"><c props="font-weight:bold; font-size:16pt">Ingeniería en Sistemas y Computación</c></p>
+<p style="Normal" xid="2" props="text-align:center"><c props="font-weight:bold; font-size:16pt">Bases de Datos IS663</c></p>
+<p style="Normal" xid="3" props="text-align:center"><c props="font-weight:bold; font-size:16pt"></c></p>
+<p style="Normal" xid="4" props="text-align:center"><c props="font-weight:bold; text-decoration:underline; font-size:16pt; font-style:italic">Taller Consultas Álgebra Relacional DreamHome</c></p>
+<p style="Normal" xid="5" props="text-align:center"><c props="font-weight:bold; text-decoration:underline; font-size:16pt; font-style:italic"></c></p>
+<p style="Normal" xid="7" props="text-align:left"><c props="font-weight:bold; text-decoration:none; font-size:12pt; font-style:normal">1.Listar todo el personal de la empresa con un sueldo mayor a 10.000.</c></p>
+<p style="Normal" xid="10" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt">	select * from Staff where salary &gt; '10000';</c></p>
+<p style="Normal" xid="18" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="11" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">2.Lista de salarios para todo el personal,mostrando solo staffNo, fName, lName y salary.</c></p>
+<p style="Normal" xid="12" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt">	select staffNo,fname,lName,salary from Staff;</c></p>
+<p style="Normal" xid="19" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="13" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">3.Listar los nombres y comentarios de todos los clientes quienes han visitado una propiedad para la renta.</c></p>
+<p style="Normal" xid="15" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-size:12pt">select C.fname,C.fname,V.comment from Client C join Viewing V on	(C.clientNo 	= 	V.clientNo);</c></p>
+<p style="Normal" xid="17" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="16" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="20" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">4. Generar un reporte de estado de las propiedades visitadas.</c></p>
+<p style="Normal" xid="21" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-size:12pt">select PFR.* from PropertyForRent PFR join Viewing V on(PFR.propertyNo =V.propertyNo);</c></p>
+<p style="Normal" xid="24" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="25" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">5.Listar todos los detalles del personal de la empresa quienes trabajan en la sucursal de Glasgow</c></p>
+<p style="Normal" xid="22" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt">	select S.* from Staff S join Branch B on(S.branchNo = B.branchNo) where B.city='Glasgow';</c></p>
+<p style="Normal" xid="28" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="29" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">6.Listar todos los clientes que han visitado las propiedades con 3 habitaciones.</c></p>
+<p style="Normal" xid="30" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-size:12pt">select C.* from Viewing V join Client C on(V.clientNo = C.clientNo)join PropertyForRent PFR on(PFR.propertyNo = V.propertyNo) where PFR.rooms='3';</c></p>
+<p style="Normal" xid="23" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="26" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">7.Cuantas propiedades son rentadas por valores superiores a $350 al mes.</c></p>
+<p style="Normal" xid="27" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-size:12pt">select count(propertyNo) as NPropiedades from PropertyForRent where rent&gt;350;</c></p>
+<p style="Normal" xid="31" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="32" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">8</c><c props="font-size:12pt">.</c><c props="font-weight:bold; font-size:12pt">Cuál es el máximo, mínimo y el promedio del salario de la tabla de staff.</c></p>
+<p style="Normal" xid="33" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-size:12pt">select max(salary) as SalarioMasAlto, min(salary) as SalarioMasBajo, avg(salary) as SalarioPromedio from Staff</c></p>
+<p style="Normal" xid="34" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="35" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">9.Listar las propiedades a la cuales no se ha asignado un responsable para la renta.</c></p>
+<p style="Normal" xid="36" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-size:12pt">select * from PropertyForRent where staffNo is null;</c></p>
+<p style="Normal" xid="37" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="40" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="41" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="38" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">10.</c><c props="font-weight:bold">Usando el comando DISTINCT (consultar por Internet como funciona) mostrar solo la lista de propiedades que han sido visitadas.</c></p>
+<p style="Normal" xid="43" props="text-align:left; dom-dir:ltr"><c>	select distinct(propertyNo) from Viewing</c></p>
+</section>
+</abiword>
