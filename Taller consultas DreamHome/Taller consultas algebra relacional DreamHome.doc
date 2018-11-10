@@ -1,0 +1,163 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype Nimbus Sans L;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;
+\red255\green255\blue255;
+\red0\green0\blue0;}
+{\stylesheet
+{\s6\fi-431\li720\sbasedon28\snext28 Contents 1;}
+{\s7\fi-431\li1440\sbasedon28\snext28 Contents 2;}
+{\s1\fi-431\li720 Arrowhead List;}
+{\s27\fi-431\li720\sbasedon28 Lower Roman List;}
+{\s29\tx431\sbasedon20\snext28 Numbered Heading 1;}
+{\s30\tx431\sbasedon21\snext28 Numbered Heading 2;}
+{\s12\fi-431\li720 Diamond List;}
+{\s9\fi-431\li2880\sbasedon28\snext28 Contents 4;}
+{\s8\fi-431\li2160\sbasedon28\snext28 Contents 3;}
+{\s31\tx431\sbasedon22\snext28 Numbered Heading 3;}
+{\s32\fi-431\li720 Numbered List;}
+{\s15\sbasedon28 Endnote Text;}
+{\*\cs14\fs20\super Endnote Reference;}
+{\s4\fi-431\li720 Bullet List;}
+{\s5\tx1584\sbasedon29\snext28 Chapter Heading;}
+{\s35\fi-431\li720 Square List;}
+{\s11\fi-431\li720 Dashed List;}
+{\s22\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 3;}
+{\s37\fi-431\li720 Tick List;}
+{\s24\fi-431\li720 Heart List;}
+{\s40\fi-431\li720\sbasedon32 Upper Roman List;}
+{\s39\fi-431\li720\sbasedon32 Upper Case List;}
+{\s16\fi-288\li288\fs20\sbasedon28 Footnote;}
+{\s19\fi-431\li720 Hand List;}
+{\s18\fs20\sbasedon28 Footnote Text;}
+{\s20\sb440\sa60\f1\fs34\b\sbasedon28\snext28 Heading 1;}
+{\s21\sb440\sa60\f1\fs28\b\sbasedon28\snext28 Heading 2;}
+{\s10\qc\sb240\sa120\f1\fs32\b\sbasedon28\snext28 Contents Header;}
+{\s23\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 4;}
+{\s28\f0\fs24 Normal;}
+{\s26\fi-431\li720\sbasedon32 Lower Case List;}
+{\s2\li1440\ri1440\sa120\sbasedon28 Block Text;}
+{\s33\f2\sbasedon28 Plain Text;}
+{\s34\tx1584\sbasedon29\snext28 Section Heading;}
+{\s25\fi-431\li720 Implies List;}
+{\s3\fi-431\li720 Box List;}
+{\s36\fi-431\li720 Star List;}
+{\*\cs17\fs20\super Footnote Reference;}
+{\s38\fi-431\li720 Triangle List;}
+{\s13\fi-288\li288\sbasedon28 Endnote;}}
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\*\rdf}{\info\uc1{\author Richy}}\deftab720\viewkind1\paperw11905\paperh16837\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\qc\s28\itap0{\s28\f0\fs32\b\lang1024{\*\listtag0}\abinodiroverride\ltrch UNIVERSIDAD TECNOLOGICA DE PEREIRA}{\s28\f0\fs32\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s28\itap0{\s28\f0\fs32\b\lang1024{\*\listtag0}\abinodiroverride\ltrch Ingenier\'eda en Sistemas y Computaci\'f3n}{\s28\f0\fs32\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s28\itap0{\s28\f0\fs32\b\lang1024{\*\listtag0}\abinodiroverride\ltrch Bases de Datos IS663}{\s28\f0\fs32\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s28\itap0{\s28\f0\fs32\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s28\itap0{\s28\f0\fs32\i\b\ul\lang1024{\*\listtag0}\abinodiroverride\ltrch Taller Consultas \'c1lgebra Relacional DreamHome}{\s28\f0\fs32\i\b\ul\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s28\itap0{\s28\f0\fs32\i\b\ul\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 1.Listar todo el personal de la empresa con un sueldo mayor a 10.000.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select * from Staff where salary > '10000';}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 2.Lista de salarios para todo el personal,mostrando solo staffNo, fName, lName y salary.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select staffNo,fname,lName,salary from Staff;}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 3.Listar los nombres y comentarios de todos los clientes quienes han visitado una propiedad para la renta.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}select C.fname,C.fname,V.comment from Client C join Viewing V on\tab (C.clientNo \tab = \tab V.clientNo);}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 4. Generar un reporte de estado de las propiedades visitadas.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}select PFR.* from PropertyForRent PFR join Viewing V on(PFR.propertyNo =V.propertyNo);}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 5.Listar todos los detalles del personal de la empresa quienes trabajan en la sucursal de Glasgow}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select S.* from Staff S join Branch B on(S.branchNo = B.branchNo) where B.city='Glasgow';}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 6.Listar todos los clientes que han visitado las propiedades con 3 habitaciones.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}select C.* from Viewing V join Client C on(V.clientNo = C.clientNo)join PropertyForRent PFR on(PFR.propertyNo = V.propertyNo) where PFR.rooms='3';}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 7.Cuantas propiedades son rentadas por valores superiores a $350 al mes.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}select count(propertyNo) as NPropiedades from PropertyForRent where rent>350;}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 8}{\s28\f0\fs24\lang1024{\*\listtag0}.}{\s28\f0\fs24\b\lang1024{\*\listtag0}Cu\'e1l es el m\'e1ximo, m\'ednimo y el promedio del salario de la tabla de staff.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}select max(salary) as SalarioMasAlto, min(salary) as SalarioMasBajo, avg(salary) as SalarioPromedio from Staff}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 9.Listar las propiedades a la cuales no se ha asignado un responsable para la renta.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}select * from PropertyForRent where staffNo is null;}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 10.}{\s28\f0\fs24\b\lang1024{\*\listtag0}Usando el comando DISTINCT (consultar por Internet como funciona) mostrar solo la lista de propiedades que han sido visitadas.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select distinct(propertyNo) from Viewing}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch 11.Listar todos los cuyo nombre empiece por M(consultar por internet).\line      SELECT FNAME FROM STAFF WHERE FNAME LIKE 'M%%';}{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \line 12.Listar todos los due\'f1os de propiedades que viven en Glasgow\line SELECT * FROM PRIVATEOWNER WHERE ADDRESS LIKE '%Glasgow%';}{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \line 13.Listar las propiedades para la renta ordenadas por tipo y n\'famero de habitaciones.\line   SELECT * FROM PROPERTYFORRENT ORDER BY ROOMS,TYPE;}{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \line 14.Mostrar la informacion del empleado y cuando se le pagaria al a\'f1o por sus servicios\line    SELECT SALARY*12 AS Sueldo_anual,FNAME,LNAME FROM STAFF;}{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \line 15.Listar las propiedades donde la oficinas estan ubicadas en Glasgow o London.\line    SELECT PFR.* FROM PROPERTYFORRENT PFR, BRANCH B WHERE }{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\qc\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch PFR.BRANCHNO = B.BRANCHNO AND B.CITY='Glasgow' or B.CITY='London';\line 16.Listar los empleados que ganan entre 20.000 y 30.000\line     SELECT * FROM STAFF WHERE SALARY BETWEEN 20000 AND 30000;\line 17.Listar todos los manager y supervisores.\line       SELECT * FROM STAFF WHERE POSITION='Manager' or POSITION='Supervisor';\line 18.Mostrar por cada sucursar, por cada cargo y por el sexo, el n\'famero de personas y el pago                  total del salario.\line       SELECT BRANCHNO,POSITION,SEX,COUNT(*) FROM STAFF GROUP BY        BRANCHNO,POSITION,SEX,SALARY;\line 19.Listar todos los nombres de los manager que ganan mas de $25.000.\line       SELECT FNAME,LNAME FROM STAFF WHERE POSITION='Manager' AND SALARY>25000;}{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \line 20. Cuantas propiedades fueron visitadas en mayo de 2015.\line         SELECT COUNT(*)FROM VIEWING WHERE TO_CHAR(VIEWDATE, 'mm/   yyyy')='05/2004';}{\s28\cf3\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f2\fs28\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\cf3\f2\fs28\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 21. Listar todas las personas cuyo salario es mayor que el promedio y mortrar cual es su}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch diferencia con respecto al promedio.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select *,salary - (select avg(salary) from Staff) as Diferencia}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Staff\tab where salary > (select avg(salary)}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab \tab \tab \tab \tab \tab \tab from Staff);}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 23. Mostrar el nombre y apellidos de los due\'f1os de las propiedades para arrendar, tambi\'e9n debe mostrar la ciudad, direcci\'f3n y tipo de propiedad para arrendar}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select PO.fname,PO.lName, PFR.city, PO.address, PFR.type}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from PropertyForRent PFR join PrivateOwner PO on(PFR.ownerNo = PO.ownerNo)}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 24. Mostrar la sucursal, la direcci\'f3n de la sucursal, la ciudad de la sucursal, los nombres del personal asociado a cada sucursal, adem\'e1s de las direcciones y ciudades de las propiedades para rentar.}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select B.branchNo,B.street,B.city, S.fname, S.lName, PFR.street,PFR.city}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Branch B,Staff S,PropertyForRent PFR}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab where B.branchNo = S.branchNo and S.staffNo = PFR.staffNo}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 25. Cu\'e1les son las personas con el sueldo m\'e1s alto y el m\'e1s bajo?}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select fname,lName,salary}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Staff}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab where salary = (select max(salary)}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab \tab \tab from Staff) or salary = (select min(salary)}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab \tab \tab \tab \tab \tab  from Staff) }{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 26. Cu\'e1l es el cliente que m\'e1s ha visitado propiedades para alquiler?}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab }{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch select C.clientNo,C.fname,C.lname,V.clientNo}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Client C,Viewing V}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab where C.clientNo = V.clientNo}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab group by C.clientNo,C.fname,C.lname}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab having count(V.clientNo)>1}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 27. Cu\'e1l es el valor a pagar cada a\'f1o por las casas a arrendar?}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select rent*12 as PagoAnual}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from PropertyForRent}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab where type = 'House'}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 28. Cu\'e1les son las propiedades que se les recomienda a cada cliente basado en el m\'e1ximo que pueden pagar?}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select C.*, PFR.propertyNo }{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Client C,PropertyForRent PFR }{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab where C.maxRent>=PFR.rent; }{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 29. Cu\'e1l es la ubicaci\'f3n y la propiedad m\'e1s visitada para arrendar?}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select count(PFR.propertyNo) as NumeroVisitas, PFR.street,PFR.propertyNo}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Viewing V join PropertyForRent PFR on(V.propertyNo = PFR.propertyNo)}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab group by PFR.street,PFR.propertyNo}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab having count(PFR.propertyNo)>1}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\abinodiroverride\ltrch 30. Que personas ya est\'e1n viviendo en una casa arrendada y cuanto tienen que pagar por la totalidad del contrato?}{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab select C.fname,C.lname,L.rent*L.duration as PagoContrato}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1024{\*\listtag0}\abinodiroverride\ltrch \tab from Lease L join Client C on(L.clientNo = C.clientNo)}{\s28\f0\fs24\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1024{\*\listtag0}\par}}

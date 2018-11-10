@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="113" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Fri Mar 16 21:54:11 2018
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">Richy</m>
+<m key="dc.date">Wed Mar 14 08:10:39 2018
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="4" edit-time="8442" last-saved="1521255251" uid="3b4343c0-2780-11e8-881f-bb9d930e4c45">
+<version id="1" started="1521033040" uid="17e9df98-2789-11e8-881f-bb9d930e4c45" auto="0" top-xid="43"/>
+<version id="4" started="1521254589" uid="7810dd8e-298e-11e8-9ce0-8f3efbd47a75" auto="0" top-xid="101"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; margin-bottom:0pt; font-weight:normal; line-height:1.0; text-align:left; font-variant:normal; text-decoration:none; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section xid="8" props="page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Normal" xid="9" props="text-align:center"><c props="font-weight:bold; font-size:16pt">UNIVERSIDAD TECNOLOGICA DE PEREIRA</c><c props="font-weight:bold; font-size:16pt"></c></p>
+<p style="Normal" xid="1" props="text-align:center"><c props="font-weight:bold; font-size:16pt">Ingeniería en Sistemas y Computación</c><c props="font-weight:bold; font-size:16pt"></c></p>
+<p style="Normal" xid="2" props="text-align:center"><c props="font-weight:bold; font-size:16pt">Bases de Datos IS663</c><c props="font-weight:bold; font-size:16pt"></c></p>
+<p style="Normal" xid="3" props="text-align:center"><c props="font-weight:bold; font-size:16pt"></c><c></c></p>
+<p style="Normal" xid="4" props="text-align:center"><c props="text-decoration:underline; font-weight:bold; font-size:16pt; font-style:italic">Taller Consultas Álgebra Relacional DreamHome</c><c props="text-decoration:underline; font-weight:bold; font-size:16pt; font-style:italic"></c></p>
+<p style="Normal" xid="5" props="text-align:center"><c props="text-decoration:underline; font-weight:bold; font-size:16pt; font-style:italic"></c><c></c></p>
+<p style="Normal" xid="7" props="text-align:left"><c props="text-decoration:none; font-weight:bold; font-size:12pt; font-style:normal">1.Listar todo el personal de la empresa con un sueldo mayor a 10.000.</c><c props="text-decoration:none; font-weight:bold; font-size:12pt; font-style:normal"></c></p>
+<p style="Normal" xid="10" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt">	select * from Staff where salary &gt; '10000';</c><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="18" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="11" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">2.Lista de salarios para todo el personal,mostrando solo staffNo, fName, lName y salary.</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="12" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt">	select staffNo,fname,lName,salary from Staff;</c><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="19" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="13" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">3.Listar los nombres y comentarios de todos los clientes quienes han visitado una propiedad para la renta.</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="15" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">select C.fname,C.fname,V.comment from Client C join Viewing V on	(C.clientNo 	= 	V.clientNo);</c></p>
+<p style="Normal" xid="17" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="16" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="20" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">4. Generar un reporte de estado de las propiedades visitadas.</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="21" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">select PFR.* from PropertyForRent PFR join Viewing V on(PFR.propertyNo =V.propertyNo);</c></p>
+<p style="Normal" xid="24" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="25" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">5.Listar todos los detalles del personal de la empresa quienes trabajan en la sucursal de Glasgow</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="22" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt">	select S.* from Staff S join Branch B on(S.branchNo = B.branchNo) where B.city='Glasgow';</c><c props="font-size:12pt"></c></p>
+<p style="Normal" xid="28" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="29" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">6.Listar todos los clientes que han visitado las propiedades con 3 habitaciones.</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="30" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">select C.* from Viewing V join Client C on(V.clientNo = C.clientNo)join PropertyForRent PFR on(PFR.propertyNo = V.propertyNo) where PFR.rooms='3';</c></p>
+<p style="Normal" xid="23" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="26" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">7.Cuantas propiedades son rentadas por valores superiores a $350 al mes.</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="27" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">select count(propertyNo) as NPropiedades from PropertyForRent where rent&gt;350;</c></p>
+<p style="Normal" xid="31" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="32" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">8</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">.</c><c props="font-weight:bold; font-size:12pt">Cuál es el máximo, mínimo y el promedio del salario de la tabla de staff.</c></p>
+<p style="Normal" xid="33" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">select max(salary) as SalarioMasAlto, min(salary) as SalarioMasBajo, avg(salary) as SalarioPromedio from Staff</c></p>
+<p style="Normal" xid="34" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="35" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">9.Listar las propiedades a la cuales no se ha asignado un responsable para la renta.</c><c props="font-weight:bold; font-size:12pt"></c></p>
+<p style="Normal" xid="36" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">	</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-size:12pt">select * from PropertyForRent where staffNo is null;</c></p>
+<p style="Normal" xid="37" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="40" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="41" props="text-align:left; dom-dir:ltr"><c props="font-size:12pt"></c><c></c></p>
+<p style="Normal" xid="38" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold; font-size:12pt">10.</c><c props="font-weight:bold; font-size:12pt"></c><c props="font-weight:bold">Usando el comando DISTINCT (consultar por Internet como funciona) mostrar solo la lista de propiedades que han sido visitadas.</c></p>
+<p style="Normal" xid="43" props="text-align:left; dom-dir:ltr">	select distinct(propertyNo) from Viewing<c></c></p>
+<p style="Normal" xid="104" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="105" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal; color:#000000; font-family:Times New Roman; text-transform:none; font-size:12pt; font-style:normal">11.Listar todos los cuyo nombre empiece por M(consultar por internet).<br/>--SELECT FNAME FROM STAFF WHERE FNAME LIKE 'M%%';<br/>12.Listar todos los dueños de propiedades que viven en Glasgow<br/>13.SELECT * FROM PRIVATEOWNER WHERE ADDRESS LIKE '%Glasgow%';<br/>14.Listar las propiedades para la renta ordenadas por tipo y número de habitaciones.<br/>--SELECT * FROM PROPERTYFORRENT ORDER BY ROOMS,TYPE;<br/>15.Mostrar la informacion del empleado y cuando se le pagaria al año por sus servicios<br/>--SELECT SALARY*12 AS Sueldo_anual,FNAME,LNAME FROM STAFF;<br/>16.Listar las propiedades donde la oficinas estan ubicadas en Glasgow o London.<br/>--SELECT PFR.* FROM PROPERTYFORRENT PFR, BRANCH B WHERE PFR.BRANCHNO = B.BRANCHNO AND B.CITY='Glasgow' or B.CITY='London';<br/>17.Listar los empleados que ganan entre 20.000 y 30.000<br/>--SELECT * FROM STAFF WHERE SALARY BETWEEN 20000 AND 30000;<br/>18.Listar todos los manager y supervisores.<br/>--SELECT * FROM STAFF WHERE POSITION='Manager' or POSITION='Supervisor';<br/>19.Mostrar por cada sucursar, por cada cargo y por el sexo, el número de personas y el pago total del salario.<br/>--SELECT BRANCHNO,POSITION,SEX,COUNT(*) FROM STAFF GROUP BY BRANCHNO,POSITION,SEX,SALARY;<br/>20.Listar todos los nombres de los manager que ganan mas de $25.000.<br/>--SELECT FNAME,LNAME FROM STAFF WHERE POSITION='Manager' AND SALARY&gt;25000;<br/>--Cuantas propiedades fueron visitadas en mayo de 2015.<br/>SELECT COUNT(*)FROM VIEWING WHERE TO_CHAR(VIEWDATE, 'mm/yyyy')='05/2004';</c></p>
+<p style="Normal" xid="106" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal; color:#000000; font-family:Courier New; text-transform:none; font-size:14.000000pt; font-style:normal"></c></p>
+<p style="Normal" xid="107" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal; color:#000000; font-family:Courier New; text-transform:none; font-size:14.000000pt; font-style:normal"></c></p>
+<p style="Normal" xid="44" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="45" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">21. Listar todas las personas cuyo salario es mayor que el promedio y mortrar cual es su</c></p>
+<p style="Normal" xid="46" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">diferencia con respecto al promedio.</c></p>
+<p style="Normal" xid="47" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="50" props="text-align:left; dom-dir:ltr"><c>	select *,salary - (select avg(salary) from Staff) as Diferencia</c></p>
+<p style="Normal" xid="48" props="text-align:left; dom-dir:ltr"><c>	from Staff	where salary &gt; (select avg(salary)</c></p>
+<p style="Normal" xid="49" props="text-align:left; dom-dir:ltr"><c>							from Staff);</c></p>
+<p style="Normal" xid="51" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">23. Mostrar el nombre y apellidos de los dueños de las propiedades para arrendar, también debe mostrar la ciudad, dirección y tipo de propiedad para arrendar</c></p>
+<p style="Normal" xid="53" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="54" props="text-align:left; dom-dir:ltr"><c>	select PO.fname,PO.lName, PFR.city, PO.address, PFR.type</c></p>
+<p style="Normal" xid="55" props="text-align:left; dom-dir:ltr"><c>	from PropertyForRent PFR join PrivateOwner PO on(PFR.ownerNo = PO.ownerNo)</c></p>
+<p style="Normal" xid="56" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="57" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">24. Mostrar la sucursal, la dirección de la sucursal, la ciudad de la sucursal, los nombres del personal asociado a cada sucursal, además de las direcciones y ciudades de las propiedades para rentar.</c></p>
+<p style="Normal" xid="59" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="60" props="text-align:left; dom-dir:ltr"><c>	select B.branchNo,B.street,B.city, S.fname, S.lName, PFR.street,PFR.city</c></p>
+<p style="Normal" xid="61" props="text-align:left; dom-dir:ltr"><c>	from Branch B,Staff S,PropertyForRent PFR</c></p>
+<p style="Normal" xid="62" props="text-align:left; dom-dir:ltr"><c>	where B.branchNo = S.branchNo and S.staffNo = PFR.staffNo</c></p>
+<p style="Normal" xid="64" props="text-align:left; dom-dir:ltr"><c></c><c> </c></p>
+<p style="Normal" xid="63" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">25. Cuáles son las personas con el sueldo más alto y el más bajo?</c></p>
+<p style="Normal" xid="65" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="66" props="text-align:left; dom-dir:ltr"><c>	select fname,lName,salary</c></p>
+<p style="Normal" xid="67" props="text-align:left; dom-dir:ltr"><c>	from Staff</c></p>
+<p style="Normal" xid="68" props="text-align:left; dom-dir:ltr"><c>	where salary = (select max(salary)</c></p>
+<p style="Normal" xid="69" props="text-align:left; dom-dir:ltr"><c>			from Staff) or salary = (select min(salary)</c></p>
+<p style="Normal" xid="70" props="text-align:left; dom-dir:ltr"><c>						 from Staff) </c></p>
+<p style="Normal" xid="72" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="71" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">26. Cuál es el cliente que más ha visitado propiedades para alquiler?</c></p>
+<p style="Normal" xid="73" props="text-align:left; dom-dir:ltr"><c>	</c></p>
+<p style="Normal" xid="78" props="text-align:left; dom-dir:ltr"><c></c><c>select C.clientNo,C.fname,C.lname,V.clientNo</c></p>
+<p style="Normal" xid="74" props="text-align:left; dom-dir:ltr"><c>	from Client C,Viewing V</c></p>
+<p style="Normal" xid="75" props="text-align:left; dom-dir:ltr"><c>	where C.clientNo = V.clientNo</c></p>
+<p style="Normal" xid="76" props="text-align:left; dom-dir:ltr"><c>	group by C.clientNo,C.fname,C.lname</c></p>
+<p style="Normal" xid="77" props="text-align:left; dom-dir:ltr"><c>	having count(V.clientNo)&gt;1</c></p>
+<p style="Normal" xid="79" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="80" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">27. Cuál es el valor a pagar cada año por las casas a arrendar?</c></p>
+<p style="Normal" xid="81" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="82" props="text-align:left; dom-dir:ltr"><c>	select rent*12 as PagoAnual</c></p>
+<p style="Normal" xid="83" props="text-align:left; dom-dir:ltr"><c>	from PropertyForRent</c></p>
+<p style="Normal" xid="84" props="text-align:left; dom-dir:ltr"><c>	where type = 'House'</c></p>
+<p style="Normal" xid="85" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="86" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">28. Cuáles son las propiedades que se les recomienda a cada cliente basado en el máximo que pueden pagar?</c></p>
+<p style="Normal" xid="88" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="89" props="text-align:left; dom-dir:ltr"><c>	select C.*, PFR.propertyNo </c></p>
+<p style="Normal" xid="90" props="text-align:left; dom-dir:ltr"><c>	from Client C,PropertyForRent PFR </c></p>
+<p style="Normal" xid="91" props="text-align:left; dom-dir:ltr"><c>	where C.maxRent&gt;=PFR.rent; </c></p>
+<p style="Normal" xid="92" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="93" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">29. Cuál es la ubicación y la propiedad más visitada para arrendar?</c></p>
+<p style="Normal" xid="94" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="95" props="text-align:left; dom-dir:ltr"><c>	select count(PFR.propertyNo) as NumeroVisitas, PFR.street,PFR.propertyNo</c></p>
+<p style="Normal" xid="96" props="text-align:left; dom-dir:ltr"><c>	from Viewing V join PropertyForRent PFR on(V.propertyNo = PFR.propertyNo)</c></p>
+<p style="Normal" xid="97" props="text-align:left; dom-dir:ltr"><c>	group by PFR.street,PFR.propertyNo</c></p>
+<p style="Normal" xid="98" props="text-align:left; dom-dir:ltr"><c>	having count(PFR.propertyNo)&gt;1</c></p>
+<p style="Normal" xid="100" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="108" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="109" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="101" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">30. Que personas ya están viviendo en una casa arrendada y cuanto tienen que pagar por la totalidad del contrato?</c></p>
+<p style="Normal" xid="111" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="112" props="text-align:left; dom-dir:ltr"><c>	select C.fname,C.lname,L.rent*L.duration as PagoContrato</c></p>
+<p style="Normal" xid="113" props="text-align:left; dom-dir:ltr"><c>	from Lease L join Client C on(L.clientNo = C.clientNo)</c></p>
+<p style="Normal" xid="103" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="110" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+</section>
+</abiword>
