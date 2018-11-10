@@ -1,0 +1,48 @@
+vista 1
+Select p.cedula, p.primernombre, p.primerapellido, e.nota, e.porcentaje, a.materia
+   from matricula m, persona p, evaluacion e, asignaturas a
+   where m.idpersona = p.idpersona and  e.idmatricula = m.idmatricula and p.cedula = '1088302179' and a.idmatricula = m.idmatricula and a.materia= 'BASE DE DATOS I'
+
+vista 2
+create view estudiantes_carrera
+as select p.nombre as nombre_carrera, count(m.idprograma) as cantidad_estudiante
+from matricula m, programas p
+where m.idprograma = p.idprogramas
+group by p.nombre
+
+vista 3
+ REPLACE VIEW requisitosIngSistemas AS 
+select a.materia as materiasincondicion, a.materia as materiaconcondicion, p.nombre
+from planestudios pe,requisitos r,asignaturas a,programas p
+where pe.idprograma = p.idprogramas and r.asignatura_sinrequisito = a.idasignatura and p.nombre = 'Ingenieria en sistemas y computacion'
+
+
+vista 4
+CREATE OR REPLACE VIEW silumtaneidadIngSistemas AS 
+select a.materia as materia1, a.materia as materia2, p.nombre
+from planestudios pe,simultaneidad s,asignaturas a,programas p
+where pe.idprograma = p.idprogramas and s.asignatura_sinrequisito = a.idasignatura and p.nombre = 'Ingenieria en sistemas y computacion'
+
+vista 5
+CREATE OR REPLACE VIEW docenteAsignaturas AS 
+select p.cedula,p.primernombre,p.primerapellido, a.materia
+from docente d,asignaturas a,docente_departamento dp,persona p
+where dp.iddocente = d.iddocente and d.idpersona = p.idpersona and dp.idasignatura = a.idasignatura
+
+vista 6
+CREATE OR REPLACE VIEW materiasIngSistemas AS 
+select p.nombre, a.materia 
+from programas p,asignaturas a
+where a.idprograma = p.idprogramas and p.nombre='Ingenieria en sistemas y computacion'
+
+vista 7
+CREATE OR REPLACE VIEW matriculado_y_programas AS 
+select p.cedula,p.primernombre,p.primerapellido,pr.nombre
+from matricula m,persona p,programas pr
+where m.idpersona = p.idpersona and m.idprograma = pr.idprogramas
+
+vista 8
+CREATE OR REPLACE VIEW semestre_estudiantes AS 
+select p.cedula, p.primernombre, p.primerapellido, ms.semestre
+from matricula m, matrisemestral ms, persona p
+where m.idpersona = p.idpersona and m.idsemestre = ms.idmsemestral

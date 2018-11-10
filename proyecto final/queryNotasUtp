@@ -1,0 +1,164 @@
+# 1 crear tabla persona.
+
+create table persona(
+idpersona serial,
+cedula int not null,
+primernombre varchar(15) not null,
+segundonombre varchar(15),
+primerapellido varchar(20) not null,
+segundoapellido varchar(20)not null,
+correo varchar(30),
+celular int,
+edad int,
+direccion varchar(30) not null,
+primary key (idpersona)
+);
+
+# 2 crear tabla matricula y se crea la relacion con persona 
+create table matricula(
+idmatricula serial,
+idpersona int,
+primary key (idmatricula),
+constraint fk_matri_pers foreign key(idpersona) references persona(idpersona) on delete cascade on update cascade  
+);
+
+# 3 insertamos un registro en persona
+INSERT INTO public.persona(cedula, primernombre, segundonombre, primerapellido,segundoapellido, correo, celular, edad, direccion)
+    VALUES ('1088302179', 'Ricardo', ' ', 'Betancourth', 'Bolivar', 'ricardo.bet@utp.edu.co', '3405797', '25', 'Manzana 4 casa 17 S E');
+
+#4 insertamos una matricula y ya que la tabla persona idpersona esta como serial que es lo mismo que AUTO_INCREMENT ricardo quedo con idpersona=1
+INSERT INTO public.matricula(idpersona)
+VALUES ('1');
+
+#5 hacemos una consulta para verificar cuantos estudiantes estan matriculados
+select primernombre,primerapellido 
+from persona p,matricula m
+where p.idpersona = m.idpersona
+
+#6 crear tabla programas academicos
+create table proacademicos(
+idproacademicos serial,
+nombre varchar(20),
+primary key (idproacademicos)
+); 
+
+# 7 basandome en la pagina de la u ingrese estos valores
+INSERT INTO public.proacademicos(idproacademicos, nombre)VALUES ('1', 'Pregrado');
+INSERT INTO public.proacademicos(idproacademicos, nombre)VALUES ('2', 'Posgrado');
+INSERT INTO public.proacademicos(idproacademicos, nombre)VALUES ('3', 'Maestria');
+INSERT INTO public.proacademicos(idproacademicos, nombre)VALUES ('4', 'Doctorado');
+
+#8 creamos la tabla programas y lo relacionamos con programas academicos que son las carreras 
+create table programas(
+idprogramas serial,
+nombre varchar(40),
+tipoprograma int,
+primary key (idprogramas),
+constraint fk_proaca_programas foreign key (tipoprograma) references proacademicos(idproacademicos) on delete cascade on update cascade  
+);
+
+
+# 9 insertamos 2 carreras y ya que tipoprograma esta relacionado con programas academicos se le asignan su PK
+INSERT INTO public.programas(nombre, tipoprograma)VALUES ('Ingenieria en sistemas y computacion', '1');
+INSERT INTO public.programas(nombre, tipoprograma)VALUES ('Ingenieria mecanica', '1');
+INSERT INTO public.programas(nombre, tipoprograma)VALUES ('Maestría en Enseñanza de las Matemáticas', '3');
+
+# ya que en la matricula debe estar el programa al cual esta el estudiante hacemos la relacion de matricula con programas
+#10 agregamos otra columna a matricula para hacer la relacion 
+alter table matricula add column idprograma int
+
+#11 agregamos la relacion
+alter table matricula add constraint fk_matri_prog foreign key(idprograma) references programas (idprogramas) on delete cascade on update cascade
+#actualizamos el registro de ricardo para que aparezca que esta cursando ing sistemas
+update matricula
+set idprograma='1'
+where idmatricula='1'
+
+#12 Consulta para verificar que personas esta matriculadas y en que carrera estan cursando
+select p.cedula,p.primernombre,p.primerapellido,pr.nombre
+from matricula m,persona p,programas pr
+where m.idpersona = p.idpersona and m.idprograma = pr.idprogramas
+
+
+create table grupos(
+idgrupos serial,
+nombre varchar(10),
+primary key(idgrupos)
+);
+
+INSERT INTO public.grupos(
+            idgrupos, nombre)
+    VALUES ('1', '100');
+
+
+
+create table asignaturas(
+idasignatur serial,
+materia varchar(20),
+idgrupo int,
+constraint fk_asig_grupos foreign key(idgrupo) references grupos (idgrupos) on delete cascade on update cascade
+);
+
+
+INSERT INTO public.asignaturas(
+            idasignatur, materia, idgrupo)
+    VALUES ('1', 'BASE DE DATOS I', '1');
+
+
+
+create table matrisemestral(
+idmsemestral serial,
+semestre varchar(13),
+primary key (idmsemestral)
+);
+
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 1');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 2');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 3');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 4');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 5');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 6');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 7');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 8');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 9');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 10');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 11');
+INSERT INTO public.matrisemestral(semestre) VALUES ( 'Semestre 12');
+
+
+alter table matricula add column idsemestre int
+
+alter table matricula add constraint fk_matri_semestre foreign key (idsemestre) references matrisemestral (idmsemestral) on delete cascade on update cascade
+
+update matricula 
+set idsemestre = '7'
+where idmatricula ='1'
+
+
+select p.cedula, p.primernombre, p.primerapellido, ms.semestre
+from matricula m, matrisemestral ms, persona p
+where m.idpersona = p.idpersona and m.idsemestre = ms.idmsemestral
+
+
+querys agendamiento
+
+create table USR_USUARIOS(
+id serial,
+cedula int not null,
+nombres varchar(30) not null,
+apellidos varchar(40) not null,
+correo varchar(30) not null,
+celular int,
+usuario varchar(30) not null,
+clave varchar(30) not null,
+avatar varchar(20),
+estado varchar(10),
+primary key (id)
+);
+
+
+
+
+
+
+
